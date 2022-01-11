@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+
+    width: 100vw;
+    height: 100vh;
+    background-color: #ff6666; 
+}
+
+
+
+
+#flex-container {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+} 
+
+#heroContainer {
+    width: 1000px;
+    height:800px;
+    position: absolute;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    top: 75px;
+}
+
+.hidden{
+    display: none;
+}
+
+body button {
+
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #ff6666;
+    color: #fff;
+    padding: 20px 40px;
+    border: 0;
+    box-shadow: 0;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+#game-canvas {
+    width: 1000px;
+    border: 2px solid black;
+    background: #03989E;
+}
